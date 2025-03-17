@@ -1,35 +1,28 @@
+@font-face {
+  font-family: unifont;
+  src: url(unifont.ttf);
+}
+
 body {
 	background-image: url("bg_john.png");
 	background-repeat: repeat;
 	background-color: #4246c3;
 }
 
-h1 {
-	color: #99e550;
-	font-size: 48pt;
-	text-align: center;
-	font-family: "Rubik Spray Paint", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	text-shadow: 2px 2px 5px #000000;
-}
-
-h3 {
+p, a {
 	color: #99e550;
 	text-align: center;
+	font-family: unifont;
 }
 
-#page-content {
-	position: relative;
-	margin: auto;
-	width: 80%;
+.landingcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-table, tr, td {
-	color: #99e550;
-	width: 100%;
-	border: 1px solid #99e550;
-	table-layout: fixed;
-	text-align: center;
+html, body {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
-
