@@ -10,7 +10,7 @@ body {
 }
 
 p, a {
-	font-size: 16px;
+	font-size: 2vh;
 	color: #99e550;
 	text-align: center;
 	font-family: unifont;
